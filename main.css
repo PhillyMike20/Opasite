@@ -46,9 +46,6 @@ a:visited {
   color: #74638f;
 }
 
-#main {
-}
-
 #smallonly {
   display: none;
 }
@@ -106,12 +103,13 @@ li {
     font-size: 2rem;
   }
 }
-/*
+
 @media only screen and (max-width: 645px) {
   #main {
+    background: url(images/opabkgd6.jpg);
     background-size:auto;  
   }
-} */
+} 
 
 @media only screen and (max-width: 600px) {
   #tribute-info {

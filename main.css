@@ -106,7 +106,7 @@ li {
 
 @media only screen and (max-width: 645px) {
   #main {
-    background: url(images/opabkgd6.jpg);
+    background: url(images/opabkgd6.jpg) no-repeat top center fixed;
     background-size:auto;  
   }
 } 

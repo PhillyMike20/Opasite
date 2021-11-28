@@ -153,13 +153,13 @@ li {
     font-size: 1.7rem;
   }
   #coat,
-  #albumpic {
+  #albumcover {
     width: 50%;
   }
 }
 
 #coat,
-#albumpic {
+#albumcover {
   max-width: 150px;
   padding: 20px;
 }

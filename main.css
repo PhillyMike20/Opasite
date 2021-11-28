@@ -12,11 +12,10 @@ body {
 }
 
 #main {
-  
   background: url(images/opabkgd6.jpg) no-repeat top center fixed;
-  background-size: cover;  
-  padding-top: 1vh; 
-  padding-bottom: 3vh; 
+  background-size: cover;
+  padding-top: 1vh;
+  padding-bottom: 3vh;
 }
 
 h1 {
@@ -50,7 +49,7 @@ a:visited {
   display: none;
 }
 
-blockquote{
+blockquote {
   font-style: italic;
   max-width: 545px;
   margin: 0 auto 0 auto;
@@ -62,7 +61,7 @@ blockquote{
   font-style: italic;
   text-align: center;
   font-size: 2.27rem;
-  color:  rgb(249,249,235); 
+  color: rgb(249, 249, 235);
   text-shadow: 3px 2px 2px #000;
   letter-spacing: 1.25px;
 }
@@ -91,7 +90,7 @@ li {
   height: auto;
   max-width: 828px;
   border: 3px solid beige;
-  display:block;
+  display: block;
   margin: 0 auto;
 }
 
@@ -106,10 +105,9 @@ li {
 
 @media only screen and (max-width: 645px) {
   #main {
-    background: url(images/green1.jpg) ; 
-    background-size:contain;
-    
-}
+    background: url(images/green1.jpg);
+    background-size: contain;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -122,7 +120,6 @@ li {
   #img-caption {
     font-size: 1.8rem;
   }
-  
 }
 
 @media only screen and (max-width: 460px) {
@@ -155,13 +152,14 @@ li {
   #headline {
     font-size: 1.7rem;
   }
-  #coat {
+  #coat,
+  #albumpic {
     width: 50%;
   }
 }
 
-
-#coat {
+#coat,
+#albumpic {
   max-width: 150px;
   padding: 20px;
 }

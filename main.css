@@ -120,6 +120,14 @@ li {
   #img-caption {
     font-size: 1.8rem;
   }
+  #albumcover {
+    width: 50%;
+  }
+
+  #albumcover {
+    max-width: 150px;
+    padding: 20px;
+  }
 }
 
 @media only screen and (max-width: 460px) {
@@ -152,14 +160,12 @@ li {
   #headline {
     font-size: 1.7rem;
   }
-  #coat,
-  #albumcover {
+  #coat {
     width: 50%;
   }
 }
 
-#coat,
-#albumcover {
+#coat {
   max-width: 150px;
   padding: 20px;
 }
